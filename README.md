@@ -34,7 +34,7 @@ The system operates on an STM32F407 microcontroller with FreeRTOS, managing conc
 
 ## Project Files Description
 
-- **`main_setpin.c`**:
+- **`main.c`**:
   - Contains the primary logic of the smart lock system, including setting up, changing, and verifying user PIN/passwords.
   - Handles input/output operations related to keypad and LCD.
   - Manages the lock/unlock state based on user authentication.
